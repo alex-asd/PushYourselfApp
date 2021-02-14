@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "459055368843",
+    "firebase_url": "https://exercises-7cd54.firebaseio.com",
+    "project_id": "exercises-7cd54",
+    "storage_bucket": "exercises-7cd54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459055368843:android:507c5839a14b55e1",
+        "android_client_info": {
+          "package_name": "com.example.valentinvaleanu.pushyourself"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459055368843-7gj8ra4atdp5f028r2lkcekb3tcl0465.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN2C9rbOP7TQH70AOyakMaHhOXVjcrImQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

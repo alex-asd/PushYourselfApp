@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Push Yourself</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_info">Info</string>
+    <string name="action_favorite">Favourite</string>
+    <string name="action_search">Search</string>
+    <string name="share">Share</string>
+    <string name="text_music">Music</string>
+    <string name="text_schedules">Schedule</string>
+    <string name="text_exercises">Exercises</string>
+    <string name="text_achievements">Achievements</string>
+    <string name="text_more">More</string>
+
+    <string-array name="titles">
+
+        <item>Starting out</item>
+        <item>Getting fitter</item>
+        <item>Fitness enthusiast</item>
+        <item>Fitness pro</item>
+        <item>ABS Insanity</item>
+        <item>Back Insanity</item>
+        <item>Cardio Insanity</item>
+        <item>Chest Insanity</item>
+        <item>Legs Insanity</item>
+        <item>Six Pack</item>
+        <item>Muscle Veteran</item>
+        <item>Exercise Speedrun</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Do 1 exercises from each category. </item>
+        <item>Do 3 exercises from each category. </item>
+        <item>Do 5 exercises from each category.</item>
+        <item>Do all exercises from each category.</item>
+        <item>Do every ABS exercise 10 times. </item>
+        <item>Do every ABS exercise 10 times. </item>
+        <item>Do every ABS exercise 10 times. </item>
+        <item>Do every Back exercise 10 times.</item>
+        <item>Do every Cardio exercise 10 times.</item>
+        <item>Do every Chest exercise 10 times.</item>
+        <item>Do every Legs exercise 10 times.</item>
+        <item>Do any ABS exercise 100 times.</item>
+        <item>Do 100 times 1 exercise of each category.</item>
+        <item>20 Exercises in 1 day.</item>
+    </string-array>
+</resources>

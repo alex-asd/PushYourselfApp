@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:enabled="true"
+        android:title="Settings"
+        android:icon="@mipmap/ic_settings_black_24dp"
+        android:id="@+id/drawer_menu_settings">
+    </item>
+    <item android:title="More"
+        android:enabled="true"
+        android:icon="@mipmap/ic_more_horiz_black_24dp"
+        android:id="@+id/drawer_menu_more">
+    </item>
+</menu>

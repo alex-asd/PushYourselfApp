@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@+id/ex_name"
+                style="@style/MyHeadingStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ExerciseName" />
+
+            <TextView
+                android:id="@+id/ex_difficulty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Difficulty"
+                android:gravity="right"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/orange"/>
+
+            <ImageView
+                android:id="@+id/exercise_image"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:src="@drawable/conc_curls2" />
+
+            <TextView
+                style="@style/description"
+                android:id="@+id/desc_prg1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description paragraph"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    <com.spark.submitbutton.SubmitButton
+        android:id="@+id/spButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Add"
+        android:textSize="10sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:sub_btn_background="@color/orange"
+        app:sub_btn_duration="3000"
+        app:sub_btn_line_color="@color/green"
+        app:sub_btn_ripple_color="@color/green"
+        app:sub_btn_tick_color="@color/white" />
+
+</RelativeLayout>
